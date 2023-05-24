@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 .Sidebar-block{
-   /* position: fixed; */
-   /* display: block; */
-
+    position: fixed;
     background-color: black;
     color: #AAAAAA;
     min-width: 150px;
+    height: 100vh;
     /* height: 100%;    */
 }
 .Sidebar-items {

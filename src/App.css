@@ -2,3 +2,28 @@
   /* text-align: center; */
   display: flex;
 }
+
+.leftcolumn {   
+  float: left;
+  width: 10%;
+}
+
+/* Right column */
+.rightcolumn {
+  margin-left: 150px;
+  float: left;
+  /* width: calc(100%-150px); */
+  width: 90%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
