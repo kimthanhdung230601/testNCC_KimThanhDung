@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Sidebar-block{
+    position: fixed;
+    background-color: black;
+    color: #AAAAAA;
+    min-width: 150px;
+    height: 100%;   
+}
+.Sidebar-items {
+  /* list-style-type: none; */
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px 0 11px 16px;
+  line-height: 19px;
+  
+}
+.Sidebar-item{
+    border-bottom: 1px solid #191718;
+    padding: 16px;
+}
+.Sidebar-item:hover{
+    background: #5C5C5C;
+    color: #FFFFFF;
+    cursor: pointer;
+}
