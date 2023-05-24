@@ -1,6 +1,6 @@
 .App {
   /* text-align: center; */
-  display: flex;
+  /* display: flex; */
 }
 
 .leftcolumn {   
@@ -14,6 +14,9 @@
   float: left;
   /* width: calc(100%-150px); */
   width: 90%;
+}
+.row{
+  display: flexs;
 }
 .row::after {
   content: "";
